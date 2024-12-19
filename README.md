@@ -1,3 +1,3 @@
 ![Baseplate logo](/assets/images/Baseplatelogo.png)
-# Welcome to baseplate!
-> hi
+# Welcome to Baseplate!
+###### Welcome to baseplate!
