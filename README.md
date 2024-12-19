@@ -1,2 +1,2 @@
 # Welcome to Baseplate!
-![Baseplate logo]()
+![Baseplate logo]("/assets/images/Baseplatelogo.png")
