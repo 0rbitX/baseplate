@@ -10,7 +10,19 @@ This will import all of Baseplate, along with another tool called Port, which we
 > [!TIP]
 > To load the most recent version, sub the link above with https://cdn.jsdelivr.net/gh/0rbitX/baseplate@main/index.js
 # Documentation
+## Documentation Key
+| Key      | Meaning |
+| ----------- | ----------- |
+| string: | Parameter is a string|
+| arr:  | Parameter takes an array |
+| obj:  | Parameter takes an object |
+| int:  | Parameter takes an number |
+| bool:  | Parameter takes an boolean |
+| ? | Parameter is optional |
 ## Baseplate
 ``
 ``
 ## Port
+### Port.add
+Port.add adds a JS library in one line.<br>
+`Port.add(string: LibraryName,customName?,customWindowName)`

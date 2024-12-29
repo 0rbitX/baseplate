@@ -150,6 +150,25 @@ class Port{
     }
 }
 class Baseplate{
-    
-}
-class grab{}
+ static setCookie(name,value,days){
+    var date = new Date();
+    date.setTime(date.getTime()+(days*24*60*60*1000));
+    exdate = "expires="+date.toUTCString();
+    document.cookie = name + "=" + value + "; " + exdate+";path=/";
+ }
+ static getCookie(cname){
+    let cookiename = cname+"=";
+    let dc = decodeURIComponent(document.cookie)
+    var ca = dc.split(";")
+    for (var i =0; i<ca.length;i++){
+        var c = ca[i]
+        while(c.charAt(0)==" "){
+            c = c.substring(1)
+        }
+        if(c.indexOf(cname)){
+            return c.substring(cname.length,c.length)   
+        }
+ } 
+ return "error getting cookie: cookie not found";  
+}}
+
