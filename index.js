@@ -10,7 +10,7 @@ function addLibrary(link,name,Wname){
     script.src = link;
     script.type = "text/javascript";
     script.onload = () => {
-    console.log("Loaded library "+name+"succesfully.")
+    console.log("Loaded library "+name+" succesfully.")
     
         
         
