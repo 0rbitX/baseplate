@@ -24,7 +24,7 @@ class Port{
     static add(library,customLink,name,wName){
         switch(library){
             case "jquery":    
-            addLibrary("https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js","jQuery","$",callback)   
+            addLibrary("https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js","jQuery","$")   
             break;
             case "lodash":    
             addLibrary("https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js","Loadash","_")   
